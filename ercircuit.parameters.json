@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "ercircuitname": {
+      "value": "ER-Demo-Circuit-Megaport"
+    },
+    "asn": {
+      "value": 65001
+    },
+    "primaryPeerAddressPrefix": {
+      "value": "10.123.0.0/30"
+    },
+    "secondaryPeerAddressPrefix": {
+      "value": "10.123.0.4/30"
+    },
+    "provider": {
+      "value": "Megaport"
+    },
+    "peeringlocation": {
+      "value": "Dallas"
+    },
+    "bandwidthInMbps": {
+      "value": 50
+    },
+    "sku": {
+      "value": "Standard"
+    }
+  }
+}
