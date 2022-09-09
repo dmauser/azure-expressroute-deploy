@@ -3,7 +3,7 @@ param asn int
 param primaryPeerAddressPrefix string
 param secondaryPeerAddressPrefix string
 param provider string = 'Megaport'
-@sys.description('Check Peering locations at https://aka.ms/erlocations')
+@sys.description('Consult Providers/Peering locations at https://aka.ms/erlocations')
 param peeringlocation string
 
 param bandwidthInMbps int = 50
